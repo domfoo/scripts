@@ -6,7 +6,7 @@ My custom scripts to use on my desktop linux.
 To use these these scripts, run ```bash add-scripts.sh```. This will create symbolic links to each of the scripts in ```~/bin```, but without file descriptors. Symbolic links are preferred, because one can edit the scripts in this git repository and use these changes without any extra effort.
 
 ```sh
-bash /path/to/repo/my-script.sh
+bash /foo/bar/scripts/my-script.sh
 ```
 
 will be equal to
@@ -28,3 +28,6 @@ fi
 ### add-scripts
 create symbolic links to every script in this repo in ```~/bin```
 
+### ex
+extract all kinds of archives
+usage: ex \<archive\>
